@@ -2,14 +2,22 @@ Positive edges- Edges which are part of the cycle.
 Positive cell - Cell which is not a blank/space.
 
 Represtations used while storing list:
+<<<<<<< HEAD
 	+	=> grid-node
 	- |	=> Positive-edges
 	#	=> empty cell
 	*	=> empty edge (non-filled edge)
+=======
+#	+	=> grid-node
+#	- |	=> Positive-edges
+#	#	=> empty cell
+#	*	=> empty edge (non-filled edge)
+>>>>>>> 5aad59856705cac6a9bc2a5cad8a72265536dcdb
 
 
 
 Cell Locations for (3*3) :
+<<<<<<< HEAD
 	+ + + +			0123456
 	      		       	0123456 
 	+ + + +			0123456
@@ -25,6 +33,23 @@ Cell Locations for (3*3) :
 	nr : cell-row; nc: cell-col; NC: Total number of columns	
 	Cell number formulae: (2nr -1) * (2NC + 1) + 2nc
 		
+=======
+#	+ + + +			0123456
+#	      		       	0123456 
+#	+ + + +			0123456
+#	      			0123456
+#	+ + + +			0123456
+#	       			0123456
+#	+ + + +			0123456
+#
+#	Numbering starts at 0
+#	triple : 11U =>  2; 11L =>  8; 11R => 10; 11D => 16
+#		 21U => 16; 21L => 23; 21R => 25; 21D => 32
+#	
+#	nr : cell-row; nc: cell-col; NC: Total number of columns	
+#	Cell number formulae: (2nr -1) * (2NC + 1) + 2nc
+#		
+>>>>>>> 5aad59856705cac6a9bc2a5cad8a72265536dcdb
 
 - Game-Play / Algo :
 ----------------
