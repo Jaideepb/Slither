@@ -1,14 +1,17 @@
 Positive edges- Edges which are part of the cycle.
 Positive cell - Cell which is not a blank/space.
 
-Represtations used while storing list:
+- Represtations used while storing list:
+----------------------------------------
 	"+"	=> grid-node
 	"-|"	=> Positive-edges
 	"#"	=> empty cell
 	"*"	=> empty edge (non-filled edge)
 
-Cell locations and reading input :
-	Numbering starts at 0
+- Cell locations and reading input :
+------------------------------------
+
+	Numbering starts at 0.
 	triple : 11U =>  2; 11L =>  8; 11R => 10; 11D => 16
 		 21U => 16; 21L => 23; 21R => 25; 21D => 32
 	
