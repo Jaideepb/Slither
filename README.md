@@ -1,8 +1,9 @@
-Positive edges- Edges which are part of the cycle.
-Positive cell - Cell which is not a blank/space.
 
-- Represtations used while storing list:
-----------------------------------------
+- Represtations/Notations used :
+--------------------------------
+	Positive edges- Edges which are part of the cycle.
+	Positive cell - Cell which is not a blank/space.
+
 	"+"	=> grid-node
 	"-|"	=> Positive-edges
 	"#"	=> empty cell
