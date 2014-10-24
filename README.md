@@ -18,6 +18,7 @@
 	
 	nr : cell-row; nc: cell-col; NC: Total number of columns	
 	Cell number formulae: (2nr -1) * (2NC + 1) + 2nc
+	edge number formulae: (
 		
 - Game-Play / Algo :
 ----------------
